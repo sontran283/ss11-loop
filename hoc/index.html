@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+            for (let i = 1; i <= 10; i++) {
+                let product = 5 * i;
+                document.write("5*" + i + "=" + product);
+            }
+        </script><br> -->
+
+    <!-- <script>
+                for (let a = 0, b = 10; a <= 10; a++, b--) {
+                    let sum = a + b;
+                    document.write(a + "+" + b + "=" + sum);
+                }
+            </script> -->
+
+    <!-- <script>
+        let abc = [
+            'java script',
+            'PHP',
+            'java',
+            'Dart',
+            'python',
+            'html'
+        ];
+        let xyz = abc.length;
+
+        for (let i = 0; i < xyz; i++) {
+            console.log(abc[i]);
+        }
+    </script> -->
+
+
+
+    <!-- vong lap for in -->
+    <!-- <script>
+        let myInfor = {
+            name: 'son tran',
+            age: 18,
+            address: 'ha noi'
+        };
+        for (let key in myInfor) {
+            console.log(myInfor[key]);
+        }
+    </script> -->
+
+    <!-- <script>
+        let languages = [
+            'javascript',
+            'php',
+            'ruby',
+            'java'
+        ];
+        for (let key in languages) {
+            console.log(languages[key]);
+        }
+    </script> -->
+
+    <!-- vong lap for of -->
+    <!-- <script>
+       let languages = [
+            'javascript',
+            'php',
+            'ruby',
+            'java'
+        ];
+    </script> -->
+
+    <!-- <script>
+        for (let i = 0; i <= 100; i += 5) {
+            console.log(i);
+        }
+    </script> -->
+    <!-- <div id="box"></div>
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>5X</th>
+
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <tr>
+                <th>1</th>
+                <th>LE a</th>
+            </tr>
+        </tbody>
+    </table> -->
+    <script>
+        for (let i = 1; i <= 10; i++) {
+            let tds = "";
+            for (let j = 1; j <= 9; j++) {
+                tds = tds + `<td>${j}*${i}=${i * j}</td>`
+            }
+            trs += `<tr>${tds}</tr>`
+        }
+    </script>
+
+
+    <label for="name"></label>
+    <input placeholder="number">
+    <button id="button" onclick="print()">IN</button>
+
+
+    <div id="box"></div>
+    <table border="1" cellpadding="5">
+        <thead id="table-head">
+            <tr>
+                <th>1X</th>
+                <th>2X</th>
+                <th>3X</th>
+                <th>4X</th>
+                <th>5X</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+
+    
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
